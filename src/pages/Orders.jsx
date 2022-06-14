@@ -12,7 +12,7 @@ const Orders = () => {
          id="griscomp"
          dataSource={ordersData}
          allowPaging
-         allowSorting
+         allowSorting 
       >
         <ColumnsDirective>
           {ordersGrid.map((item, index) => (
